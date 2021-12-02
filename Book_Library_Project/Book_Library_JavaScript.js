@@ -12,16 +12,11 @@ function Book(name, author, pages, read) {
 
 function addBookToLibrary(name, author, pages, read) {
   This.newBook = function () {
-    const Book1 = new Book(
-      "Rich Dad, Poor Dad",
-      "Robert Kiyosaki",
-      "235",
-      "Read"
-    );
+    const Book1 = new Book("Rich Dad, Poor Dad");
 
-    const Book2 = new Book("One Piece", "Eiichiro Oda", "23456", "Not Read");
+    const Book2 = new Book("One Piece");
 
-    const Book3 = new Book("Bone", "Jeff Smith", "2352", "Not Read");
+    const Book3 = new Book("Bone");
 
     myLibrary.push(Book1, Book2, Book3);
   };
@@ -30,3 +25,15 @@ function addBookToLibrary(name, author, pages, read) {
 for (let i in myLibrary) {
   console.log(myLibrary[i] + " ");
 }
+
+function test() {
+  alert("Thank you for your input!");
+}
+
+let btn = document.createElement("button");
+btn.innerHTML = "NEW BOOK";
+btn.type = "submit";
+btn.name = "formBtn";
+document.body.appendChild(btn);
+
+function function2() {}

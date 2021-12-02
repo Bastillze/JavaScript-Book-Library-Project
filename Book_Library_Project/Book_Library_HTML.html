@@ -5,17 +5,40 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
     <link rel="stylesheet" href="Book_Library_CSS.css" type="text/css" />
-
-    <script src="Book_Library_JavaScript.js" type="text/javascript"></script>
   </head>
 
   <body>
-    <div id="myLibrary">
-      <div id="Book1"></div>
+    <div id="Book1">"Rich Dad, Poor Dad"</div>
 
-      <div id="Book2"></div>
+    <div id="Book2">"One Piece"</div>
 
-      <div id="Book3"></div>
-    </div>
+    <div id="Book3">"Bone"</div>
+
+    <form onsubmit="test()">
+      <label for="username">Book Title:</label>
+      <input type="Author" name="username" id="username" />
+      <input type="submit" />
+    </form>
+
+    <form onsubmit="test()">
+      <label for="username">Book Author:</label>
+      <input type="Author" name="username" id="username" />
+      <input type="submit" />
+    </form>
+
+    <form onsubmit="test()">
+      <label for="username">Book Pages:</label>
+      <input type="Author" name="username" id="username" />
+      <input type="submit" />
+    </form>
+
+    <form onsubmit="test()">
+      <label for="username">Book Read?:</label>
+      <input type="Author" name="username" id="username" />
+      <input type="submit" />
+    </form>
+
+    <button id="removeBook" onclick="function2()">REMOVE BOOK</button>
   </body>
+  <script src="Book_Library_JavaScript.js" type="text/javascript"></script>
 </html>
