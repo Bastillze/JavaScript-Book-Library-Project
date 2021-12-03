@@ -60,3 +60,29 @@ row_2.appendChild(row_2_data_1);
 row_2.appendChild(row_2_data_2);
 row_2.appendChild(row_2_data_3);
 tbody.appendChild(row_2);
+
+let row_3 = document.createElement("tr");
+let row_3_data_1 = document.createElement("td");
+row_3_data_1.innerHTML = "Rich Dad, Poor Dad";
+let row_3_data_2 = document.createElement("td");
+row_3_data_2.innerHTML = "Robert Kiyosaki";
+let row_3_data_3 = document.createElement("td");
+row_3_data_3.innerHTML = "350";
+
+row_3.appendChild(row_3_data_1);
+row_3.appendChild(row_3_data_2);
+row_3.appendChild(row_3_data_3);
+tbody.appendChild(row_3);
+
+let row_4 = document.createElement("tr");
+let row_4_data_1 = document.createElement("td");
+row_4_data_1.innerHTML = "Bone";
+let row_4_data_2 = document.createElement("td");
+row_4_data_2.innerHTML = "Jeff Smith";
+let row_4_data_3 = document.createElement("td");
+row_4_data_3.innerHTML = "900";
+
+row_4.appendChild(row_4_data_1);
+row_4.appendChild(row_4_data_2);
+row_4.appendChild(row_4_data_3);
+tbody.appendChild(row_4);
