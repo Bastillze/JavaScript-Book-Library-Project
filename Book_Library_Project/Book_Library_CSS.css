@@ -3,6 +3,17 @@
   height: 999px;
 }
 
+#table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+th,
+td {
+  padding: 10px 20px;
+  border: 1px solid #000;
+}
+
 #removeBook {
   width: 89px;
   height: 30px;
