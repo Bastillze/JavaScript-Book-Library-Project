@@ -7,6 +7,39 @@
     <link rel="stylesheet" href="Book_Library_CSS.css" type="text/css" />
   </head>
 
-  <body id="body"></body>
+  <body id="body">
+    <div class="New Book Form">
+      <form action="/action_page.php" class="formContainer">
+        <h2>New Book</h2>
+
+        <label for="New Book">
+          <strong>New Book Name</strong>
+        </label>
+
+        <input
+          type="text"
+          id="New Book Name"
+          placeholder="New Book Name Here"
+          required
+        />
+
+        <label for="Author">
+          <strong>Author Name</strong>
+        </label>
+
+        <input
+          type="text"
+          id="Author Name"
+          placeholder="Author Name Here"
+          required
+        />
+
+        <button type="submit" class="btn">Submit</button>
+        <button type="button" onclick="closeForm()">Close</button>
+      </form>
+
+      <button type="button" onclick="removeBook()">Remove Book</button>
+    </div>
+  </body>
   <script src="Book_Library_JavaScript.js" type="text/javascript"></script>
 </html>

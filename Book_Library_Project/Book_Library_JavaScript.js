@@ -86,3 +86,13 @@ row_4.appendChild(row_4_data_1);
 row_4.appendChild(row_4_data_2);
 row_4.appendChild(row_4_data_3);
 tbody.appendChild(row_4);
+
+function newBook() {
+  document.getElementById("NEW BOOK").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("New BOOK").style.display = "none";
+}
+
+function removeBook() {}
