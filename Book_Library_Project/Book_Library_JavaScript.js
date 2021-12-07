@@ -95,4 +95,13 @@ function closeForm() {
   document.getElementById("New BOOK").style.display = "none";
 }
 
-function removeBook() {}
+function removeBook() {
+
+  var elem = document.getElementByTagName('tr');
+
+  elem.remove();
+
+
+};
+
+function statusCheck() {}
